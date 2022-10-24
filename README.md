@@ -297,7 +297,7 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 
 [mdn-typed-array]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypedArray
 
-[l1norm]: http://en.wikipedia.org/wiki/Norm_%28mathematics%29
+[l1norm]: https://en.wikipedia.org/wiki/Norm_%28mathematics%29
 
 [@stdlib/math/base/special/abs]: https://github.com/stdlib-js/math-base-special-abs
 
