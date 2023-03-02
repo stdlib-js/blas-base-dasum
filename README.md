@@ -82,7 +82,7 @@ var sum = dasum( x.length, x, 1 );
 
 The function has the following parameters:
 
--   **N**: number of elements to sum.
+-   **N**: number of indexed elements.
 -   **x**: input [`Float64Array`][mdn-float64array].
 -   **stride**: index increment.
 
@@ -273,7 +273,7 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 -->
 
 [chat-image]: https://img.shields.io/gitter/room/stdlib-js/stdlib.svg
-[chat-url]: https://gitter.im/stdlib-js/stdlib/
+[chat-url]: https://app.gitter.im/#/room/#stdlib-js_stdlib:gitter.im
 
 [stdlib]: https://github.com/stdlib-js/stdlib
 
