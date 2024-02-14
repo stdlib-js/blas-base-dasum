@@ -63,7 +63,7 @@ The [_L1_ norm][l1norm] is defined as
 ## Usage
 
 ```javascript
-import dasum from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-dasum@esm/index.mjs';
+import dasum from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-dasum@v0.2.0-esm/index.mjs';
 ```
 
 #### dasum( N, x, stride )
@@ -174,7 +174,7 @@ sum = dasum.ndarray( 3, x, -1, x.length-1 );
 <script type="module">
 
 import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-discrete-uniform@esm/index.mjs';
-import dasum from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-dasum@esm/index.mjs';
+import dasum from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-dasum@v0.2.0-esm/index.mjs';
 
 var opts = {
     'dtype': 'float64'
