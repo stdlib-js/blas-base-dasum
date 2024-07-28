@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/blas-base-dasum",
-  "version": "0.2.1",
+  "version": "0.3.0",
   "description": "Compute the sum of absolute values (L1 norm).",
   "license": "Apache-2.0",
   "author": {
