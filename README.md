@@ -63,6 +63,11 @@ The [_L1_ norm][l1norm] is defined as
 ## Usage
 
 ```javascript
+import dasum from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-dasum@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/blas-base-dasum/tags). For example,
+
+```javascript
 import dasum from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-dasum@v0.3.0-deno/mod.js';
 ```
 
@@ -169,7 +174,7 @@ sum = dasum.ndarray( 3, x, -1, x.length-1 );
 
 ```javascript
 import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-discrete-uniform@deno/mod.js';
-import dasum from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-dasum@v0.3.0-deno/mod.js';
+import dasum from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-dasum@deno/mod.js';
 
 var opts = {
     'dtype': 'float64'
